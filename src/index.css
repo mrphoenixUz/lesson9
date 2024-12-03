@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+@layer utilities {
+    .container {
+        @apply px-20 max-xl:px-10 max-md:px-5;
+    }
+}
