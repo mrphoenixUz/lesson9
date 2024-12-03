@@ -13,7 +13,6 @@ function App() {
       <Navbar /> {/* Navbar Section */}
       <Main />
       <CollapseF />
-      <PopoverF />
       <AlertF />
       <TabsF />
       <MessageF />

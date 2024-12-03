@@ -1,5 +1,6 @@
 import AvatarF from "./Avatar"
 import BadgeF from "./Badge"
+import PopoverF from "./Popover"
 import SelectF from "./Select"
 import SwitchF from "./Switch"
 import TourF from "./Tour"
@@ -37,6 +38,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <TourF />
+                    <PopoverF />
                 </div>
             </div>
         </nav>
